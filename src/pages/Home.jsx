@@ -10,6 +10,8 @@ export default function Home() {
   //   const whatsappLink =
   //     "https://wa.me/5585999999999?text=Olá!+Vim+pelo+site+da+DVD+Computer+e+gostaria+de+agendar+um+serviço.";
   const instagramLink = "https://ig.me/m/dvdcomputer";
+  const whatsappLink =
+    "https://wa.me/+5585981766599?text=Olá!+Vim+pelo+site+da+DVD+Computer+e+gostaria+de+agendar+um+serviço.";
 
   useEffect(() => {
     const buscarDados = async () => {
@@ -42,7 +44,7 @@ export default function Home() {
           DVD<span className="text-[#00ff66]">COMPUTER</span>
         </h1>
         <a
-          href={instagramLink}
+          href={whatsappLink}
           target="_blank"
           rel="noreferrer"
           className="bg-[#00ff66] text-black font-bold px-4 py-2 rounded-md text-sm hover:bg-[#00cc55] transition-all"
@@ -190,7 +192,7 @@ export default function Home() {
       {/* BOTÃO FLUTUANTE WHATSAPP (ACESSIBILIDADE MOBILE) */}
       <div className="fixed bottom-6 right-6 z-50">
         <a
-          href={instagramLink}
+          href={whatsappLink}
           target="_blank"
           rel="noreferrer"
           className="flex items-center justify-center w-14 h-14 bg-[#00ff66] text-black rounded-full shadow-[0_0_20px_rgba(0,255,102,0.3)] hover:scale-110 active:scale-95 transition-all"
